@@ -1,0 +1,16 @@
+.shopping-main {
+    padding: 4vw;
+  }
+  
+  .shopping-main .table {
+    margin-top: 20px;
+  }
+  
+  .shopping-main .table tr {
+    -webkit-box-shadow: 5px 5px 5px gray;
+            box-shadow: 5px 5px 5px gray;
+  }
+  
+  .shopping-main .table tr td {
+    padding: 10px 50px;
+  }

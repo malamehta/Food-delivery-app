@@ -1,0 +1,103 @@
+.menu-header {
+   width: 100%;
+  }
+  
+  .menu-header .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1vw 2vw;
+    background-color: #e5e7e7;
+  }
+  
+  .menu-header .navbar-logo {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .menu-header .navbar-menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .menu-header .navbar-menu ul li {
+    margin-right: 15px;
+  }
+  
+  .menu-header .navbar-menu ul li a {
+    text-transform: capitalize;
+    color: black;
+  }
+  
+  .menu-main {
+    padding: 4vw;
+  }
+  
+  .menu-main__content {
+    background-color: #e3e8ec;
+  }
+  
+  .menu-main .items {
+    padding: 2vw 4vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  
+  .menu-main .items .item {
+    width: 250px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 10px 10px 10px #b3b2b2;
+            box-shadow: 10px 10px 10px #b3b2b2;
+
+  }
+  
+  .menu-main .items .item img {
+    width: 100%;
+    /* height: 400px; */
+  }
+  
+  .menu-main .items .item-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1vw;
+  }
+  
+  .menu-main .items .item-details .title {
+    text-transform: capitalize;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .menu-main .items .item-details .add-to-cart {
+    color: black;
+    margin: 5px 0;
+  }
+  .allItems{
+    display: flex;
+  }
+  .num{
+    padding: 2px 5px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-left: 3px;
+  }

@@ -1,0 +1,36 @@
+.index-main {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .index-main .maincontent-section {
+    background-color: #f0f3f3;
+    padding: 6vw 4vw 5vw 4vw;
+  }
+  
+  .index-main .maincontent-section .title {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  .index-main .maincontent-section .para1 {
+    margin-bottom: 40px;
+  }
+  
+  .index-main .maincontent-section .order-btn {
+    margin-top: 30px;
+    background-color: #161616;
+    display: inline-block;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .index-main .maincontent-section .order-btn:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+  }
